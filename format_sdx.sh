@@ -7,7 +7,10 @@ echo "Disko dydis:" $size
 echo -n "Iveskite /boot dydi Gib skaiciais (1...9): "
 read bts
 btz="+"$bts"G"
-(echo n ; echo p ; echo 1 ; echo ; echo $btz ; echo t ; echo 82 ; echo p) | fdisk $disk
+(echo n ; echo p ; echo 1 ; echo ; echo $btz ; echo t ; echo 82 ; echo a ; echo p) | fdisk $disk >> out.txt
+prt1=$disk"1"
+cat out.txt | grep $prt1
+rm -f out.txt
 
 
 echo -n "Iveskite /swap dydi Gib skaiciais (1...16): "
