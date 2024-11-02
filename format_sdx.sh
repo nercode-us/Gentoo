@@ -8,8 +8,8 @@ echo -n "Iveskite /boot dydi Gib skaiciais (1...9): "
 read bts
 btz="+"$bts"G"
 (echo n ; echo p ; echo 1 ; echo ; echo $btz ; echo t ; echo 82 ; echo a ; echo p) | fdisk $disk >> out.txt
-prt1=$disk"1"
-cat out.txt | grep $prt1
+boot=$disk"1"
+cat out.txt | grep $boot
 rm -f out.txt
 
 
