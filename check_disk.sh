@@ -1,4 +1,6 @@
-gp=`fdisk -l | grep Disklabel | awk '{print $3}' | sed -n '1p'`
+echo -n "Iveskite disko pavadinima (/dev/sdX):"
+read dsk
+gp=`(echo p) | fdisk $dsk | grep Disklabel | awk '{print $3}' | sed -n '1p'`
 if [ "$gp" == "gpt" ];
 then
 echo "Gentoo disk use UEFI."
