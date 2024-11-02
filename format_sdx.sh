@@ -7,7 +7,7 @@ echo "Disko dydis:" $size
 echo -n "/boot size in Gib numbers (1...9): "
 read bts
 btz="+"$bts"G"
-(echo n ; echo p ; echo 1 ; echo ; echo $btz ; echo a ; echo p) | fdisk $disk >> out.txt
+(echo n ; echo p ; echo 1 ; echo ; echo $btz ; echo a ; echo w ; echo p) | fdisk $disk >> out.txt
 boot=$disk"1"
 cat out.txt | grep $boot
 rm -f out.txt
