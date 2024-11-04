@@ -39,3 +39,5 @@ xx=`echo $size | awk '{print $1}'`
 echo $xx
 rtx=$(( $xx - $sws - $bts))
 echo "Likes Particijos / dydis bus: "$rtx" Gib"
+
+fdisk -l
