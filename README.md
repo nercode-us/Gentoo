@@ -1,4 +1,4 @@
-### check-uefi.sh
+#### check-uefi.sh
 ### check-disk.sh
 
 format-sdX.sh
