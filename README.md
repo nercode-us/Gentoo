@@ -1,11 +1,11 @@
-#### check-uefi.sh
+### check-uefi.sh
 ### check-disk.sh
 
-format-sdX.sh
-mnt-gentoo.sh
-set-time.sh
-get-stage3.sh
-install-stage3.sh
+### format-sdX.sh
+### mnt-gentoo.sh
+### set-time.sh
+### get-stage3.sh
+### install-stage3.sh
 
 
 
