@@ -12,7 +12,7 @@ echo -n "Nesugebejau atpazinti disko, nurodyk pavadinima /dev/sdX: "
 read disk
 fi
 
-size=`fdisk -l | grep 'Disk' | grep $disk | awk '{print $3,$4}' | tr -d ',' | tr -s '\.' ' ' | awk '{print $1,$3}'`
+size=`fdisk -l | grep 'Disk' | grep $disk | awk '{print $3}' | tr -d ',' | tr -s '\.' ' ' | awk '{print $1}'`
 echo "Disko dydis: "$size"Gib"
 
 
