@@ -1,5 +1,5 @@
 #!/bin/bash
-home=`pwd`
+hm=`pwd`
 cd /mnt/gentoo
 
 url="https://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/"
@@ -29,4 +29,4 @@ gpg --verify $asc
 gpg --verify $dig
 gpg --verify $sha
 
-cd $home
+cd $hm
