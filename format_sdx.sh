@@ -28,7 +28,7 @@ rm -f out.txt
 echo -n "/swap size Gib numbers (1...16): "
 read sws
 swz="+"$sws"G"
-(echo n ; echo p ; echo 2 ; echo ; echo $sws ; echo t ; echo 2 ; echo 82 ; echo p ; echo w) | fdisk $disk >> out.txt
+(echo n ; echo p ; echo 2 ; echo ; echo $swz ; echo t ; echo 2 ; echo 82 ; echo p ; echo w) | fdisk $disk >> out.txt
 swap=$disk"2"
 cat out.txt | grep $swap
 rm -f out.txt
