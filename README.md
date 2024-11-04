@@ -7,7 +7,7 @@
 ### set-time.sh
 ### get-stage3.sh
 ### install-stage3.sh
-
+### set-configs.sh
 
 
 
