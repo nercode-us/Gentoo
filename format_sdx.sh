@@ -33,18 +33,11 @@ swap=$disk"2"
 cat out.txt | grep $swap
 rm -f out.txt
 
-echo -n "/ size in Gib type numbers (20...300): "
-read ros
-roz="+"$ros"G"
+echo -n "/ size in Gib will be whole left size."
 (echo n ; echo p ; echo 3 ; echo ; echo ; echo p ; echo w) | fdisk $disk >> out.txt
 root=$disk"3"
 cat out.txt | grep $root
 rm -f out.txt
 
-
-
-
-# echo $xx
 # rtx=$(( $xx - $sws - $bts))
 # echo "Likes Particijos / dydis bus: "$rtx" Gib"
-
