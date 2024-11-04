@@ -10,3 +10,7 @@ echo "/etc/portage/make.conf"
 cat /etc/portage/make.conf | grep -v -e '\#' -e '\$' | grep '.'
 
 
+
+#sed $x'c\oli lopop' test.txt
+#cat test.txt | grep -v '#' | sed $x'c\oli lopop'
+ 
