@@ -1,13 +1,13 @@
-### enter-start.sh
-### check-uefi.sh
-### check-disk.sh
+### 1. enter-start.sh
+### 2 check-uefi.sh
+### 3 check-disk.sh
 
-### format-sdX.sh
-### mnt-gentoo.sh
-### set-time.sh
-### get-stage3.sh
-### install-stage3.sh
-### set-configs.sh
+### 4 format-sdX.sh
+### 5 mnt-gentoo.sh
+### 6 set-time.sh
+### 7 get-stage3.sh
+### 8 install-stage3.sh
+### 9 set-configs.sh
 
 
 
