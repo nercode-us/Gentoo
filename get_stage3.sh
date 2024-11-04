@@ -1,4 +1,5 @@
 #!/bin/bash
+home=`pwd`
 cd /mnt/gentoo
 
 url="https://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/"
@@ -27,3 +28,5 @@ wget -O - https://qa-reports.gentoo.org/output/service-keys.gpg | gpg --import
 gpg --verify $asc
 gpg --verify $dig
 gpg --verify $sha
+
+cd $home
