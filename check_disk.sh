@@ -7,7 +7,7 @@ then
 echo "Gentoo disk use UEFI."
 elif [ "$gp" == "dos" ];
 then
-echo "Gentoo disk use DOS."
+echo "Gentoo disk use MBR."
 else
 echo "Gentoo disk use unknown partition table ."
 fi
