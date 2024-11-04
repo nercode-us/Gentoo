@@ -1,5 +1,17 @@
-echo -n "Disk  /dev/sdX: "
+
+dsk=`lsblk | grep disk | awk '{print $1}'`
+dsk2=`fdisk -l | grep 'Disk' | grep $dsk | awk '{print $2}' | tr -s '\/:' ' ' | awk '{print $2}'`
+
+if [ "$dsk" == "$dsk2" ];
+then
+disk="/dev/"$dsk
+echo "Atpazintas diskas /dev/"$dsk
+else
+echo "Radau diskus: "$dsk" - "$dsk2
+echo -n "Nesugebejau atpazinti disko, nurodyk pavadinima /dev/sdX: "
 read disk
+fi
+
 size=`fdisk -l | grep 'Disk' | grep $disk | awk '{print $3,$4}' | tr -d ',' | tr -s '\.' ' ' | awk '{print $1,$3}'`
 echo "Disko dydis:" $size
 
