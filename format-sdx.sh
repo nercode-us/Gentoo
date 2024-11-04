@@ -16,8 +16,10 @@ size=`fdisk -l | grep 'Disk' | grep $disk | awk '{print $3}' | tr -d ',' | tr -s
 echo "Disko dydis: "$size"Gib"
 
 
-echo -n "/boot size in Gib type numbers (1...9): "
-read bts
+echo -n "/boot size 1 Gib [ENTER]: "
+# read bts
+read
+bts=1
 btz="+"$bts"G"
 (echo n ; echo p ; echo 1 ; echo ; echo $btz ; echo a ; echo p ; echo w) | fdisk $disk >> out.txt
 boot=$disk"1"
@@ -25,15 +27,17 @@ cat out.txt | grep $boot
 rm -f out.txt
 
 
-echo -n "/swap size in Gib type numbers (2...16): "
-read sws
+echo -n "/swap size 2 Gib [ENTER]: "
+#read sws
+read
+sws=2
 swz="+"$sws"G"
 (echo n ; echo p ; echo 2 ; echo ; echo $swz ; echo t ; echo 2 ; echo 82 ; echo p ; echo w) | fdisk $disk >> out.txt
 swap=$disk"2"
 cat out.txt | grep $swap
 rm -f out.txt
 
-echo -n "/ size in Gib will be whole left size [ENTER]:"
+echo -n "/ whole left size [ENTER]:"
 read
 (echo n ; echo p ; echo 3 ; echo ; echo ; echo p ; echo w) | fdisk $disk >> out.txt
 root=$disk"3"
