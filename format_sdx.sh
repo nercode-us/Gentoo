@@ -25,7 +25,7 @@ cat out.txt | grep $boot
 rm -f out.txt
 
 
-echo -n "/swap size in Gib type numbers (1...16): "
+echo -n "/swap size in Gib type numbers (2...16): "
 read sws
 swz="+"$sws"G"
 (echo n ; echo p ; echo 2 ; echo ; echo $swz ; echo t ; echo 2 ; echo 82 ; echo p ; echo w) | fdisk $disk >> out.txt
@@ -33,11 +33,18 @@ swap=$disk"2"
 cat out.txt | grep $swap
 rm -f out.txt
 
+echo -n "/ size in Gib type numbers (20...300): "
+read ros
+roz="+"$ros"G"
+(echo n ; echo p ; echo 3 ; echo ; echo ; echo p ; echo w) | fdisk $disk >> out.txt
+root=$disk"3"
+cat out.txt | grep $root
+rm -f out.txt
 
 
-xx=`echo $size | awk '{print $1}'`
-echo $xx
-rtx=$(( $xx - $sws - $bts))
-echo "Likes Particijos / dydis bus: "$rtx" Gib"
 
-fdisk -l
+
+# echo $xx
+# rtx=$(( $xx - $sws - $bts))
+# echo "Likes Particijos / dydis bus: "$rtx" Gib"
+
