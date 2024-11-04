@@ -1,4 +1,6 @@
 #!/bin/bash
+cd /mnt/gentoo
+
 url="https://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/"
 stg=`curl --silent $url | tr ' ' '\n' | grep 'desktop-openrc' | tr '"' ' ' | awk '{print $2}' | grep -v -e '\.asc' -e 'sha256' -e 'DIGE' -e 'CONTE' -e '\.txt'`
 sha=`curl --silent $url | tr ' ' '\n' | grep 'desktop-openrc' | tr '"' ' ' | awk '{print $2}' | grep -v -e '\.asc' -e 'DIGE' -e 'CONTE' -e '\.txt' | grep 'sha256'`
