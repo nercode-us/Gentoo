@@ -33,7 +33,7 @@ swap=$disk"2"
 cat out.txt | grep $swap
 rm -f out.txt
 
-echo -n "/ size in Gib will be whole left size."
+echo -n "/ size in Gib will be whole left size [ENTER]:"
 read
 (echo n ; echo p ; echo 3 ; echo ; echo ; echo p ; echo w) | fdisk $disk >> out.txt
 root=$disk"3"
