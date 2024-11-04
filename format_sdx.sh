@@ -40,5 +40,12 @@ root=$disk"3"
 cat out.txt | grep $root
 rm -f out.txt
 
+
+mkfs.xfs $root
+mkfs.xfs $boot
+mkswap $swap
+swapon $swap
+
+
 # rtx=$(( $xx - $sws - $bts))
 # echo "Likes Particijos / dydis bus: "$rtx" Gib"
