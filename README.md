@@ -1,5 +1,5 @@
-check-uefi.sh
-check-disk.sh
+# check-uefi.sh
+# check-disk.sh
 
 format-sdX.sh
 mnt-gentoo.sh
