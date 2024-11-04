@@ -1,3 +1,4 @@
+### enter-start.sh
 ### check-uefi.sh
 ### check-disk.sh
 
