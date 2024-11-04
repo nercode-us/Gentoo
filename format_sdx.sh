@@ -13,7 +13,7 @@ read disk
 fi
 
 size=`fdisk -l | grep 'Disk' | grep $disk | awk '{print $3,$4}' | tr -d ',' | tr -s '\.' ' ' | awk '{print $1,$3}'`
-echo "Disko dydis:" $size
+echo "Disko dydis: "$size"Gib"
 
 
 echo -n "/boot size in Gib numbers (1...9): "
