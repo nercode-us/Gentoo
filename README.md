@@ -9,6 +9,7 @@
 ### 8 install-stage3.sh
 ### 9 set-configs.sh
 ### 10 mount-dirs.sh
+### * remain.sh
 ### 11 gnt-chroot.sh
 ### 12 gnt-terminal.sh
 ### 13 start-linux.sh
