@@ -8,6 +8,3 @@ mkf="MAKEOPTS=\"-j$x -l$y\""
 echo $mkf >> $conf
 
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
-
-
- 
