@@ -21,7 +21,7 @@ echo $mkf >> /mnt/gentoo/etc/portage/make.conf.new
 
 mv /mnt/gentoo/etc/portage/make.conf.new /mnt/gentoo/etc/portage/make.conf
 
-
+cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
 
 
  
