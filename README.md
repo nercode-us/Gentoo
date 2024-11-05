@@ -8,7 +8,7 @@
 ### 7 get-stage3.sh
 ### 8 install-stage3.sh
 ### 9 set-configs.sh
-
+### 10 mount-linux.sh
 
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
