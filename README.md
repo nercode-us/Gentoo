@@ -10,8 +10,8 @@
 ### 9 set-configs.sh
 ### 10 mount-dirs.sh
 ### * remain.sh
-### cd /mnt/gentoo/root/Gentoo-main/
-### 11 chroot-gnt.sh
+## cd /mnt/gentoo/root/Gentoo-main/
+## chroot /mnt/gentoo /bin/bash
 ## export PS1="(chroot) ${PS1}"
 ### 12 gnt-terminal.sh
 ### 13 start-linux.sh
