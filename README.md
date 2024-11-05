@@ -9,7 +9,7 @@
 ### 8 install-stage3.sh
 ### 9 set-configs.sh
 ### 10 mount-dirs.sh
-### * remain.sh
+### 11 remain.sh
 ## cd /mnt/gentoo/root/Gentoo-main/
 ## chroot /mnt/gentoo /bin/bash
 ## source /etc/profile
