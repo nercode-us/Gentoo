@@ -1,6 +1,6 @@
 ### 1. enter-start.sh
-### 2 check-uefi.sh
-### 3 check-disk.sh
+### 2 uefi-check.sh
+### 3 disk-check.sh
 
 ### 4 format-sdX.sh
 ### 5 mnt-gentoo.sh
