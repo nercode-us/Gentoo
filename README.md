@@ -7,7 +7,7 @@
 ### 6 set-time.sh
 ### 7 get-stage3.sh
 ### 8 install-stage3.sh
-### 9 set-configs.sh
+### 9 configs-set.sh
 ### 10 mount-dirs.sh
 ### 11 remain.sh
 ## chroot /mnt/gentoo /bin/bash
