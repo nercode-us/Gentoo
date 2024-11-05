@@ -18,4 +18,4 @@
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
 
-cd /mnt/gentoo/root/Gentoo-main/ - is recuired becouse bash script can do job in other directories, but after it did job, you start again from /root/ not from /mnt/gentoo/root/
+cd /mnt/gentoo/root/Gentoo-main/ - you can't do this simple command with script, need type manually as writen
