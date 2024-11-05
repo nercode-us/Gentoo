@@ -9,7 +9,6 @@ x=`nproc`
 y=$(($x+1))
 mkf="MAKEOPTS=\"-j$x -l$y\""
 
-#cpuname=`gcc -march=native -Q --help=target | grep 'march=' | grep -v 'option' | awk '{print $2}'`
 cpuname="native"
 cpo="-march="$cpuname
 cpf="COMMON_FLAGS=\"$cpo $xl\""
