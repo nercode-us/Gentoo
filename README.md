@@ -14,8 +14,7 @@
 ## chroot /mnt/gentoo /bin/bash
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
-### 12 gnt-terminal.sh
-### 13 start-linux.sh
+### 1 start-linux.sh
 
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
