@@ -23,8 +23,8 @@ wget "$ascu"
 #Checking files
 openssl dgst -r -sha512 $stg
 sha256sum --check $sha | grep $stg
-gpg --import /usr/share/openpgp-keys/gentoo-release.asc
-wget -O - https://qa-reports.gentoo.org/output/service-keys.gpg | gpg --import
+gpg --import /usr/share/openpgp-keys/gentoo-release.asc > /dev/null 2>&1
+wget -O - https://qa-reports.gentoo.org/output/service-keys.gpg | gpg --import > /dev/null 2>&1
 #gpg --verify $asc
 #gpg --verify $dig
 #gpg --verify $sha
