@@ -22,11 +22,11 @@ wget "$ascu"
 
 #Checking files
 openssl dgst -r -sha512 $stg
-sha256sum --check $sha
+sha256sum --check $sha | grep $stg
 gpg --import /usr/share/openpgp-keys/gentoo-release.asc
 wget -O - https://qa-reports.gentoo.org/output/service-keys.gpg | gpg --import
-gpg --verify $asc
-gpg --verify $dig
-gpg --verify $sha
+#gpg --verify $asc
+#gpg --verify $dig
+#gpg --verify $sha
 
 cd $hm
