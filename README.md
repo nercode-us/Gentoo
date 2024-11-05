@@ -10,6 +10,7 @@
 ### 9 set-configs.sh
 ### 10 mount-dirs.sh
 ### * remain.sh
+### cd /mnt/gentoo/root/Gentoo-main/
 ### 11 gnt-chroot.sh
 ### 12 gnt-terminal.sh
 ### 13 start-linux.sh
