@@ -10,7 +10,6 @@
 ### 9 set-configs.sh
 ### 10 mount-dirs.sh
 ### 11 remain.sh
-## cd /mnt/gentoo/
 ## chroot /mnt/gentoo /bin/bash
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
