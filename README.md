@@ -11,7 +11,7 @@
 ### 10 mount-dirs.sh
 ### * remain.sh
 ### cd /mnt/gentoo/root/Gentoo-main/
-### 11 gnt-chroot.sh
+### 11 chroot-gnt.sh
 ### 12 gnt-terminal.sh
 ### 13 start-linux.sh
 
