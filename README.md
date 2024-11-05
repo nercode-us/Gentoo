@@ -12,6 +12,7 @@
 ### * remain.sh
 ## cd /mnt/gentoo/root/Gentoo-main/
 ## chroot /mnt/gentoo /bin/bash
+## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
 ### 12 gnt-terminal.sh
 ### 13 start-linux.sh
