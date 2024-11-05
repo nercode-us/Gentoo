@@ -1,1 +1,3 @@
+https://github.com/dudekmichal/gentoo
+
 https://github.com/sergibarroso/gentoo_install
