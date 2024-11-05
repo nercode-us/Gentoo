@@ -19,6 +19,6 @@ mount /dev/sda1 /boot
 # Moving lost files again to home directory
 cd ~
 wget "https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip"
-unzip Gentoo-main.zip
+unzip Gentoo-main.zip > /dev/null 2>&1
 cd Gentoo-main/
 bash enter-start.sh
