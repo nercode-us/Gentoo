@@ -10,6 +10,7 @@ mount --make-slave /mnt/gentoo/run
 
 cd ~
 mv Gentoo-main.zip /mnt/gentoo/root/
-unzip /mnt/gentoo/root/Gentoo-main.zip > /dev/null 2>&1
-cd /mnt/gentoo/root/Gentoo-main/
+cd /mnt/gentoo/root/
+unzip Gentoo-main.zip > /dev/null 2>&1
+cd Gentoo-main/
 bash enter-start.sh
