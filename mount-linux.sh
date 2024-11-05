@@ -16,7 +16,9 @@ export PS1="(chroot) ${PS1}"
 
 #MBR
 mount /dev/sda1 /boot
-# Moving lost files again to home directory
+
+# Making CPU configs even better
+
 cnf="/etc/portage/make.conf"
 
 xc=`cat $cnf | grep -n 'COMMON_FLAGS="' | tr ':' ' ' | awk '{print $1}'`
@@ -29,12 +31,10 @@ cpf="COMMON_FLAGS=\"$cpo $xl\""
 echo $cpf
 
 sed $xc'c\'"$cpf" /etc/portage/make.conf >> /etc/portage/make.conf.new
-
-
 mv /etc/portage/make.conf.new /etc/portage/make.conf
 
 
-
+# Back to Game, setting up files again...
 cd ~
 wget -q "https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip"
 unzip Gentoo-main.zip > /dev/null 2>&1
