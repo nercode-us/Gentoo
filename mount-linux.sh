@@ -28,8 +28,6 @@ cpuname=`gcc -march=native -Q --help=target | grep 'march=' | grep -v 'option' |
 cpo="-march="$cpuname
 cpf="COMMON_FLAGS=\"$cpo $xl\""
 
-echo $cpf
-
 sed $xc'c\'"$cpf" /etc/portage/make.conf >> /etc/portage/make.conf.new
 mv /etc/portage/make.conf.new /etc/portage/make.conf
 
