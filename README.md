@@ -21,7 +21,7 @@
 ### world-update.sh
 ### check-depclean.sh (just look, if you not sure what to do)
 ### local-gentoo.sh
-
+### kernel-files.sh
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
 
 cd /mnt/gentoo/root/Gentoo-main/ - you can't do this simple command with script, need type manually as writen
