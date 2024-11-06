@@ -22,8 +22,8 @@
 ### world-update.sh
 ### check-depclean.sh (just look, if you not sure what to do)
 ### local-gentoo.sh
-### source /etc/profile
-### export PS1="(chroot) ${PS1}"
+## source /etc/profile
+## export PS1="(chroot) ${PS1}"
 ### kernel-files.sh
 ### compile-kernel.sh
 ### make-kernel.sh
