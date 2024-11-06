@@ -16,9 +16,9 @@ ascu=$url$asc
 
 # Wget commands
 wget "$stage3"
-wget "$sha256"
-wget "$digests"
-wget "$ascu"
+wget -q "$sha256"
+wget -q "$digests"
+wget -q "$ascu"
 
 #Checking files
 openssl dgst -r -sha512 $stg
