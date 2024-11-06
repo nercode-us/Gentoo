@@ -16,7 +16,7 @@
 ## cd ~/Gentoo-main/
 ### 1 ./start-linux.sh
 ### 2 ./update-gentoo.sh
-### profile.set
+### profile-set.sh
 ### cpuid.sh
 ### world-update.sh
 ### check-depclean.sh (just look, if you not sure what to do)
