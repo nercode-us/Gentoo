@@ -15,6 +15,7 @@
 ## export PS1="(chroot) ${PS1}"
 ## cd ~/Gentoo-main/
 ### 1 start-linux.sh
+### 2 update-gentoo.sh
 
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
