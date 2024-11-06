@@ -17,15 +17,15 @@
 ## cd ~/Gentoo-main/
 ### 1 ./start-linux.sh
 ### 2 ./update-gentoo.sh
-### profile-set.sh
-### cpuid.sh
-### world-update.sh
-### check-depclean.sh (just look, if you not sure what to do)
-### local-gentoo.sh
+### 3 ./profile-set.sh
+### 4 ./cpuid.sh
+### 5 ./world-update.sh
+### 6 ./check-depclean.sh (just look, if you not sure what to do)
+### 7 ./local-gentoo.sh
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
-### kernel-files.sh
-### compile-kernel.sh
+### 8 ./kernel-files.sh
+### 9 ./compile-kernel.sh
 ### make-kernel.sh
 
 
