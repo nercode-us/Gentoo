@@ -16,9 +16,9 @@
 ## cd ~/Gentoo-main/
 ### 1 ./start-linux.sh
 ### 2 ./update-gentoo.sh
-profile.set
-cpuid.sh
-
+### profile.set
+### cpuid.sh
+### world-update.sh
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
 
 cd /mnt/gentoo/root/Gentoo-main/ - you can't do this simple command with script, need type manually as writen
