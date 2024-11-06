@@ -16,7 +16,8 @@
 ## cd ~/Gentoo-main/
 ### 1 ./start-linux.sh
 ### 2 ./update-gentoo.sh
-
+profile.set
+cpuid.sh
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
 
