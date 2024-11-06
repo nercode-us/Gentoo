@@ -6,9 +6,9 @@
 emerge-webrsync
 emerge --sync
 
-yes y | emerge --update sys-apps/portage
+emerge --update sys-apps/portage
 mkdir /etc/portage/repos.conf
 cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf
 
-yes y | emerge --verbose --oneshot app-portage/mirrorselect
+emerge --verbose --oneshot app-portage/mirrorselect
 mirrorselect -s3 -b10 -D
