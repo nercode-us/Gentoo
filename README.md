@@ -13,7 +13,7 @@
 ## chroot /mnt/gentoo /bin/bash
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
-(check every symbol on top commmand)
+(check every symbol of top command)
 ## cd ~/Gentoo-main/
 ### 1 ./start-linux.sh
 ### 2 ./update-gentoo.sh
