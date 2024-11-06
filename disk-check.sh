@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Iveskite disko pavadinima (/dev/sdX):"
 fdisk -l | grep '/dev' | grep 'GiB' | grep -v 'loop' | awk '{print $2,$3,$4}'
 read dsk
