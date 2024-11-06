@@ -1,3 +1,4 @@
+#!/bin/bash
 # ls -l /usr/share/zoneinfo
 # ls -l /usr/share/zoneinfo/Europe/
 
