@@ -1,4 +1,4 @@
-
+#!/bin/bash
 dsk=`lsblk | grep disk | awk '{print $1}'`
 dsk2=`fdisk -l | grep 'Disk' | grep $dsk | awk '{print $2}' | tr -s '\/:' ' ' | awk '{print $2}'`
 
