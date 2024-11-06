@@ -20,7 +20,7 @@
 ### cpuid.sh
 ### world-update.sh
 ### check-depclean.sh (just look, if you not sure what to do)
-### localtime-gentoo.sh
+### local-gentoo.sh
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
 
