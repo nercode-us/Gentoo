@@ -23,6 +23,7 @@
 ### local-gentoo.sh
 ### kernel-files.sh
 ### compile-kernel.sh
+### install-kernel.sh
 
 
 https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
