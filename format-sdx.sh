@@ -45,8 +45,8 @@ cat out.txt | grep $root
 rm -f out.txt
 
 
-mkfs.xfs -f $root
-mkfs.xfs -f $boot
+mkfs.xfs -f $root > /dev/null 2>&1
+mkfs.xfs -f $boot > /dev/null 2>&1
 mkswap $swap
 swapon $swap
 
