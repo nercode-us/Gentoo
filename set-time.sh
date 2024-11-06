@@ -1,3 +1,4 @@
+#!/bin/bash
 # https://timeapi.io/swagger/index.html
 # https://www.cyberciti.biz/faq/howto-set-date-time-from-linux-command-prompt/
 hm=`pwd`
