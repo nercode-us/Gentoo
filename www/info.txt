@@ -5,3 +5,5 @@ https://github.com/sergibarroso/gentoo_install
 https://github.com/jlaunonen/gentoo-uefi-secure
 
 https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html
+
+https://forums.gentoo.org/viewtopic-t-1089189-start-0.html
