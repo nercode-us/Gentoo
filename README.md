@@ -48,6 +48,7 @@ Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/w
 ### make
 ### make modules_install
 ### make install
+### ./list-modules.sh
 
 
 
