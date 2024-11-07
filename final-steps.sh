@@ -14,6 +14,8 @@ rc-update add chronyd default
 emerge sys-fs/dosfstools
 emerge sys-block/io-scheduler-udev-rules
 
+emerge app-admin/sudo
+
 emerge --verbose sys-boot/grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
