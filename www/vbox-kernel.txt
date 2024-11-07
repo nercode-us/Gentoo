@@ -6,10 +6,7 @@ https://wiki.gentoo.org/wiki/VirtualBox
 [*] Virtualization  --->
 
 #---------------- VBox Guest 
-KERNEL Generic Framebuffer prior to kernel 5.15
-Bus options (PCI etc.)  --->
-    [*] Mark VGA/VBE/EFI FB as generic system framebuffer
-#-------------------------------------------------------------- 
+
 KERNEL Generic Framebuffer kernel 5.15 and later
 Device Drivers  --->
   Firmware Drivers  --->
