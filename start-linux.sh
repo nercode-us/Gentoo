@@ -27,3 +27,4 @@ cpf="COMMON_FLAGS=\"$cpo $xl\""
 sed $xc'c\'"$cpf" /etc/portage/make.conf >> /etc/portage/make.conf.new
 mv /etc/portage/make.conf.new /etc/portage/make.conf
 
+cat $cnf | grep -v '#' | grep '.'
