@@ -53,6 +53,7 @@ Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/w
 ### ./net-configs.sh
 ### ./final-steps.sh
 ### ./virtual-box.sh
+### ./add-users.sh
 ### ./unmount-linux.sh
 ### poweroff
 Remove ISO image from Storage settings, and start Gentoo again.
