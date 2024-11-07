@@ -34,7 +34,7 @@ find url below, download file Gentoo-main.zip
 ### 3 ./profile-set.sh
 ### 4 ./cpuid-uses.sh
 ### 5 ./world-update.sh
-### 6 ./check-depclean.sh 
+./check-depclean.sh 
 (just look, if you not sure what to do)
 ### 7 ./local-gentoo.sh
 ## source /etc/profile
