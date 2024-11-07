@@ -53,6 +53,8 @@ Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/w
 ### ./net-configs.sh
 ### ./final-steps.sh
 ### ./unmount-linux.sh
+### reboot
+Enjoy Gentoo... :) 
 
 
 
