@@ -4,7 +4,7 @@ Start Gentoo installation, after boot, you can just run all scripts.
 ### links "https://github.com/nercode-us/Gentoo" 
 find url below, download file Gentoo-main.zip
 
-### 00 unzip Gentoo-main.zip
+### unzip Gentoo-main.zip
 ### 0 cd Gentoo-main/
 ### 1 bash enter-start.sh
 ### 2 ./uefi-check.sh
