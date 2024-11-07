@@ -1,7 +1,7 @@
 These scripts tested on VirtualBox of Windows, scripts not perfect still, but make installation more easier.
 
 Start Gentoo installation, after boot, you can just run all scripts.
-Scrips' names not perfect, but in most cases, you just need type ./ and first two alphabets, and press TAB... That's fast... :) Some commands can't be done by script, so you type manually as you can see in the list.
+Scrips' names not perfect, but in most cases, you just need type ./ and first two alphabets, and press TAB... That's fast... :) Some commands can't be done by script, so you need to write manually as you can see in the list.
 
 ### links "https://github.com/nercode-us/Gentoo" 
 find url below, download file Gentoo-main.zip
