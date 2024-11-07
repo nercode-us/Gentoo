@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Vartotojo <root> pasword:"
 passwd root
 uname="friend"
