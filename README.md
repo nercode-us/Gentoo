@@ -1,4 +1,4 @@
-This scripts tested on VirtualBox on Windows, these scripts not perfect still, but makes installation more easy.
+These scripts tested on VirtualBox of Windows, these scripts not perfect still, but make installation more easier.
 
 Start Gentoo installation, after boot, you can just run all scripts.
 ### links "https://github.com/nercode-us/Gentoo" 
