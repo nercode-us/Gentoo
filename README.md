@@ -45,7 +45,8 @@ find url below, download file Gentoo-main.zip
 Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/www/vbox-kernel.txt
 ### make
 ### make modules_install
-### make-kernel.sh
+### make install
+make-kernel.sh
 
 
 
