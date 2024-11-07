@@ -4,4 +4,4 @@ eselect kernel set $ek
 
 cd /usr/src/linux
 # make localmodconfig
-make menuconfig
+# make menuconfig
