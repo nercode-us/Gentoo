@@ -5,7 +5,7 @@ Scripts' names not perfect, but in most cases, you just need type ./ and first t
 
 ### links "https://github.com/nercode-us/Gentoo" 
 find url below, download file Gentoo-main.zip
-
+https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
 ### unzip Gentoo-main.zip
 ### 0 cd Gentoo-main/
 ### 1 bash enter-start.sh
@@ -41,5 +41,5 @@ find url below, download file Gentoo-main.zip
 ### make-kernel.sh
 
 
-https://github.com/nercode-us/Gentoo/raw/refs/heads/main/Gentoo-main.zip
+
 
