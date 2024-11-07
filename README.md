@@ -50,6 +50,7 @@ Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/w
 ### make install
 ### ./list-modules.sh
 ### ./fstab-set.sh
+### ./net-configs.sh
 
 
 
