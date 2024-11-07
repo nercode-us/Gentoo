@@ -14,6 +14,8 @@ xc=`cat $cnf | grep -n 'COMMON_FLAGS="' | tr ':' ' ' | awk '{print $1}'`
 xl=`cat $cnf | sed -n $xc'p' | tr -d '"' | sed 's/COMMON_FLAGS=//g'`
 
 # cpuname=`gcc -march=native -Q --help=target | grep 'march=' | grep -v 'option' | awk '{print $2}'`
+# In my case this cpuname taken from gcc has bug, so i commented it.
+
 cpuname="native"
 cpo="-march="$cpuname
 cpf="COMMON_FLAGS=\"$cpo $xl\""
