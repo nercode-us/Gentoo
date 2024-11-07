@@ -4,8 +4,8 @@ echo $name > /etc/hostname
 
 emerge net-misc/dhcpcd
 
-rc-update add dhcpcd default
-rc-service dhcpcd start
+# rc-update add dhcpcd default
+# rc-service dhcpcd start
 
 emerge --noreplace net-misc/netifrc
 
