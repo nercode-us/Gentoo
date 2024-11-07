@@ -1,3 +1,5 @@
 
 https://wiki.gentoo.org/wiki/VirtualBox
 https://wiki.gentoo.org/wiki/Kernel/Configuration
+
+https://wiki.gentoo.org/wiki/Xfce
