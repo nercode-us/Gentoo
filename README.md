@@ -23,7 +23,7 @@ find url below, download file Gentoo-main.zip
 ## chroot /mnt/gentoo /bin/bash
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
-(check every symbol of top command)
+(type slowly, and check every symbol of top command)
 ## cd ~/Gentoo-main/
 ### 1 ./start-linux.sh
 ### 2 ./update-gentoo.sh
@@ -35,6 +35,7 @@ find url below, download file Gentoo-main.zip
 ### 7 ./local-gentoo.sh
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
+(type slowly, and check every symbol of top command)
 ### 8 ./kernel-files.sh
 ### 9 ./compile-kernel.sh
 ### make-kernel.sh
