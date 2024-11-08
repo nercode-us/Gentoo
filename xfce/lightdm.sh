@@ -15,4 +15,4 @@ rc-update add dbus default
 rc-update add display-manager default
 
 rc-service dbus start
-rc-service display-manager start
+# rc-service display-manager start
