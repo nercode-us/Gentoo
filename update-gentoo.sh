@@ -11,6 +11,3 @@ mkdir /etc/portage/repos.conf
 cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf
 
 emerge app-text/wgetpaste
-
-emerge --verbose --oneshot app-portage/mirrorselect
-mirrorselect -s3 -b10 -D
