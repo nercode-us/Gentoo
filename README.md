@@ -11,37 +11,37 @@ Scripts' names not perfect, but in most cases, you just need type ./ and first t
 find url below, download file Gentoo-main.zip
 
 ### unzip Gentoo-main.zip
-### 0 cd Gentoo-main/
-### 1 bash enter-start.sh
-### 2 ./uefi-check.sh
-### 3 ./disk-check.sh
-
-### 4 ./format-sdX.sh
-### 5 ./mnt-gentoo.sh
-### 6 ./time-set.sh
-### 7 ./get-stage3.sh
-### 8 ./install-stage3.sh
-### 9 ./set-configs.sh
-### 10 ./mount-dirs.sh
-### 11 ./remain.sh
+### cd Gentoo-main/
+### bash enter-start.sh
+### ./uefi-check.sh
+### ./disk-check.sh
+### ./format-sdX.sh
+### ./mnt-gentoo.sh
+### ./time-set.sh
+### ./get-stage3.sh
+### ./install-stage3.sh
+### ./set-configs.sh
+### ./mount-dirs.sh
+### ./remain.sh
 ## chroot /mnt/gentoo /bin/bash
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
 (type slowly, and check every symbol of top command)
 ## cd ~/Gentoo-main/
-### 1 ./start-linux.sh
-### 2 ./update-gentoo.sh
-### 3 ./profile-set.sh
-### 4 ./cpuid-uses.sh
-### 5 ./world-update.sh
+### ./start-linux.sh
+### ./update-gentoo.sh
+### ./mirrors-sets.sh
+### ./profile-set.sh
+### ./cpuid-uses.sh
+### ./world-update.sh
 ./check-depclean.sh 
 (just look, if you not sure what to do)
-### 7 ./local-gentoo.sh
+### ./local-gentoo.sh
 ## source /etc/profile
 ## export PS1="(chroot) ${PS1}"
 (type slowly, and check every symbol of top command)
-### 8 ./kernel-files.sh
-### 9 ./config-kernel.sh
+### ./kernel-files.sh
+### ./config-kernel.sh
 ### cd /usr/src/linux
 ### make menuconfig
 Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/www/vbox-kernel.txt
