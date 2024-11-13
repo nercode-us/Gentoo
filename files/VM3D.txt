@@ -1,0 +1,1 @@
+https://www.kernelconfig.io/search?q=vmwgfx&kernelversion=6.6.60&arch=x86
