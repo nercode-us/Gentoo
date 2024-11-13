@@ -53,6 +53,7 @@ Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/w
 ### ./fstab-set.sh
 ### ./net-configs.sh
 ### ./final-steps.sh
+### ./drivers-vbox.sh
 ### ./virtual-box.sh
 ### ./add-users.sh
 ### ./unmount-linux.sh
