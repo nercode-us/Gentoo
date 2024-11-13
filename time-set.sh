@@ -6,7 +6,8 @@ cd /mnt/gentoo
 
 chronyd -q > /dev/null 2>&1
 
-kalen=`curl --silent -X 'GET' 'https://timeapi.io/api/time/current/zone?timeZone=Europe%2FVilnius' -H 'accept: application/json' | tr ',{}' '\n' | grep '"date"' | tr '"\/' ' ' | awk '{print $5,$3,$4}' | tr -d '^\n '`
+kalen=`curl --silent -X 'GET' 'https://timeapi.io/api/time/current/zone?timeZone=Europe%2FVilnius' -H 'accept: application/json' | \
+tr ',{}' '\n' | grep '"date"' | tr '"\/' ' ' | awk '{print $5,$3,$4}' | tr -d '^\n '`
 
 date +%m%d%Y -s "$kalen" > /dev/null 2>&1
 
