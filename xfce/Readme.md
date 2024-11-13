@@ -1,1 +1,1 @@
-
+./setup-startx.sh
