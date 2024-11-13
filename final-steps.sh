@@ -14,8 +14,15 @@ rc-update add chronyd default
 emerge sys-fs/dosfstools
 emerge sys-block/io-scheduler-udev-rules
 
-emerge app-admin/sudo
+# Video and Input Drivers for VMWare and VirtualBox
+emerge x11-drivers/xf86-video-vmware
+emerge x11-drivers/xf86-video-vboxvideo
+emerge x11-drivers/xf86-input-vmmouse
+emerge x11-drivers/xf86-video-fbdev
 
+# Root
+emerge app-admin/sudo
+# Grub
 emerge --verbose sys-boot/grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
