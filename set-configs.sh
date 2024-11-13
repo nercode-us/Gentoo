@@ -7,9 +7,9 @@ mkf="MAKEOPTS=\"-j$x -l$y\""
 
 echo $mkf >> $conf
 #=================================
-vm="vmware"
+# vm="vmware"
 vb="virtualbox"
-vgpu="VIDEO_CARDS=\"$vm $vb\""
+vgpu="VIDEO_CARDS=\"$vb\""
 
 echo $vgpu >> $conf
 
