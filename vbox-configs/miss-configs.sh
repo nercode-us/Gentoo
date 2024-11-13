@@ -1,7 +1,12 @@
 #!/bin/bash
 
 hm=`pwd`
+
+if [ ! -f $hm/.config ]
+then
 cp /usr/src/linux/.config $hm/
+fi
+
 
 file1="vbox-settings.txt"
 file2=".config"
