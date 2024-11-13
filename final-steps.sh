@@ -15,10 +15,10 @@ emerge sys-fs/dosfstools
 emerge sys-block/io-scheduler-udev-rules
 
 # Video and Input Drivers for VMWare and VirtualBox
-emerge x11-drivers/xf86-video-vmware
-emerge x11-drivers/xf86-video-vboxvideo
-emerge x11-drivers/xf86-input-vmmouse
-emerge x11-drivers/xf86-video-fbdev
+# emerge x11-drivers/xf86-video-vmware
+# emerge x11-drivers/xf86-video-vboxvideo
+# emerge x11-drivers/xf86-input-vmmouse
+# emerge x11-drivers/xf86-video-fbdev
 
 # Root
 emerge app-admin/sudo
