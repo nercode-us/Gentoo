@@ -20,7 +20,7 @@ echo $dp >> $conf
 
 emerge net-misc/dhcpcd
 rc-update add dhcpcd default
-rc-service dhcpcd start
+# rc-service dhcpcd start
 
 
 
