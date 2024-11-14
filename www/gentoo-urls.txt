@@ -1,5 +1,7 @@
 
 https://wiki.gentoo.org/wiki/VirtualBox
+
 https://wiki.gentoo.org/wiki/Kernel/Configuration
+https://wiki.gentoo.org/wiki/Modprobed-db
 
 https://wiki.gentoo.org/wiki/Xfce
