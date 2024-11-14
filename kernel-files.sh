@@ -5,7 +5,7 @@ emerge sys-firmware/sof-firmware
 emerge sys-kernel/installkernel
 emerge sys-kernel/gentoo-sources
 
-emerge --config sys-kernel/gentoo-kernel
+# emerge --config sys-kernel/gentoo-kernel
 #===================================================
 emerge -av sys-kernel/gentoo-kernel-bin --autounmask-write
 echo u | dispatch-conf
