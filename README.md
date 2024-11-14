@@ -42,13 +42,6 @@ find url below, download file Gentoo-main.zip
 (type slowly, and check every symbol of top command)
 ### ./kernel-files.sh
 ### ./config-kernel.sh
-### cd /usr/src/linux
-### make menuconfig
-Kernel settings for VirtualBox: https://github.com/nercode-us/Gentoo/blob/main/www/vbox-kernel.txt
-### make
-### make modules_install
-### make install
-### cd ~/Gentoo-main/
 ### ./list-modules.sh
 ### ./fstab-set.sh
 ### ./net-configs.sh
