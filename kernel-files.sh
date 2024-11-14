@@ -8,5 +8,6 @@ emerge sys-kernel/gentoo-sources
 emerge --config sys-kernel/gentoo-kernel
 emerge --config sys-kernel/gentoo-kernel-bin
 
+emerge sys-kernel/modprobed-db
 emerge sys-apps/pciutils
 emerge app-crypt/sbsigntools
