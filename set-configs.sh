@@ -1,4 +1,5 @@
 #!/bin/bash
+lice="/mnt/gentoo/etc/portage/package.license"
 conf="/mnt/gentoo/etc/portage/make.conf"
 #=================================
 x=`nproc`
@@ -14,5 +15,6 @@ vgpu="VIDEO_CARDS=\"$vb\""
 echo $vgpu >> $conf
 
 #=================================
+echo -e "*/*  *" >> $lice
 
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
