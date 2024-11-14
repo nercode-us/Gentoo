@@ -1,8 +1,8 @@
 #!/bin/bash
 # Video and Input Drivers for VMWare and VirtualBox
+ucnfg="/etc/portage/package.use/drivers"
 #===============================================================
-emerge -v x11-drivers/xf86-video-vmware --autounmask-write
-echo u | dispatch-conf
+echo "media-libs/mesa xa" >> $ucnfg
 
 emerge -v x11-drivers/xf86-video-vmware
 emerge -v x11-drivers/xf86-input-vmmouse
