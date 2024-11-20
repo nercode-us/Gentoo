@@ -1,1 +1,4 @@
+https://www.gentoo.org/inside-gentoo/artwork/
+https://www.gentoo.org/inside-gentoo/artwork/gentoo-logo.html
+
 https://wiki.gentoo.org/wiki/LightDM
