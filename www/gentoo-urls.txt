@@ -1,3 +1,7 @@
+
+https://wiki.gentoo.org/wiki/Handbook:Parts/Working/USE
+https://devmanual.gentoo.org/general-concepts/use-flags/index.html
+
 https://wiki.gentoo.org/wiki//etc/portage/package.license
 https://wiki.gentoo.org/wiki/VirtualBox
 
@@ -5,3 +9,19 @@ https://wiki.gentoo.org/wiki/Kernel/Configuration
 https://wiki.gentoo.org/wiki/Modprobed-db
 
 https://wiki.gentoo.org/wiki/Xfce
+https://wiki.gentoo.org/wiki/Recommended_applications
+https://wiki.gentoo.org/wiki/Benefits_of_Gentoo
+https://wiki.gentoo.org/wiki/Upgrading_Gentoo
+https://wiki.gentoo.org/wiki/Emerge
+
+https://superuser.com/questions/1403123/what-are-differences-between-vboxvga-vmsvga-and-vboxsvga-in-virtualbox
+https://wiki.gentoo.org/wiki/Mirrorselect
+https://wiki.gentoo.org/wiki/Virtualization
+https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html
+
+https://packages.gentoo.org/useflags/abi_x86_64
+https://wiki.gentoo.org/wiki/Xfce
+https://wiki.gentoo.org/wiki/Xorg/Guide
+https://wiki.gentoo.org/wiki/VMware
+https://wiki.gentoo.org/wiki/VirtualBox
+https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel
