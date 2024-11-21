@@ -15,10 +15,19 @@ https://wiki.gentoo.org/wiki/Emerge
 https://wiki.gentoo.org/wiki/Handbook:Parts/Working/USE
 https://devmanual.gentoo.org/general-concepts/use-flags/index.html
 https://wiki.gentoo.org/wiki//etc/portage/package.license
+
+https://wiki.gentoo.org/wiki/Quick_Installation_Checklist
+https://wiki.gentoo.org/wiki/User:Pietinger/Draft/Quick_Installation_OpenRC_for_an_UEFI_System
+https://wiki.gentoo.org/wiki/Handbook:AMD64
+https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Networking
 https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel
 https://wiki.gentoo.org/wiki/Kernel/Configuration
 https://wiki.gentoo.org/wiki/Modprobed-db
 
+https://wiki.gentoo.org/wiki/Steam
+https://wiki.gentoo.org/wiki/Flatpak
+
+https://elatov.github.io/2014/11/running-gentoo-as-a-guest-in-virtualbox/
 https://superuser.com/questions/1403123/what-are-differences-between-vboxvga-vmsvga-and-vboxsvga-in-virtualbox
 https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html
 https://packages.gentoo.org/useflags/abi_x86_64
